@@ -108,7 +108,7 @@ const orders = [{ "price": 15, "tax": 0.09 }, { "price": 42, "tax": 0.07 }, { "p
   Use a higher order method to get the sum of all the order totals after adding in the sales tax
 */
 
-let ordersTotal = orders.map(x => (x.price * x.tax) + x.price)
+let ordersTotal = orders.map(ObjElement => (ObjElement.price * ObjElement.tax) + ObjElement.price)
 
 
 
